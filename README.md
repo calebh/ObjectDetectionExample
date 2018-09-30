@@ -2,7 +2,7 @@
 
 ![Detection demo](https://raw.githubusercontent.com/calebh/ObjectDetectionExample/master/screenshot.png)
 
-A demo app is availabe in the GitHub releases section: https://github.com/calebh/ObjectDetectionDemo/releases
+A demo app is availabe in the GitHub releases section: https://github.com/calebh/ObjectDetectionExample/releases
 
 This project is a demonstration of using neural networks for object detection on Android in Unity. The detection runs in real time on a Pixel 2, which makes it suitable for augmented reality apps/games. One thing to note is that this network will consume 100% of the CPU and cause your phone to overheat. Dedicated neural network chips (like the one in the iPhone) should eliminate this problem in the future.
 
