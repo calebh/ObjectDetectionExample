@@ -16,6 +16,8 @@ Video feed from a phone camera is sent to a [SSD MobileNet](https://github.com/t
 
 The [TFLite Experimental plugin for Unity](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite/experimental/examples/unity/TensorFlowLitePlugin) is used to run the MobileNet. The network can also be executed by OpenCV for Unity's DNN module. Currently this project only supports Android devices. iOS uses a separate deep neural network library called Metal, which should theoretically give good performance thanks to hardware acceleration.
 
+The neural network input is 300x300 pixels. This means that the network will not be able to detect far away objects since they will be very tiny. With the appropriate cropping, it should be possible to detect more distant objects.
+
 # Dependencies
 [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) - this library is required but is not available in this repo because it is a paid package. You'll need to import this package from the asset store.
 
