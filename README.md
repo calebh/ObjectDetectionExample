@@ -19,6 +19,9 @@ The [TFLite Experimental plugin for Unity](https://github.com/tensorflow/tensorf
 The neural network input is 300x300 pixels. This means that the network will not be able to detect far away objects since they will be very tiny. With the appropriate cropping, it should be possible to detect more distant objects.
 
 # Dependencies
+
+This project was created in Unity 2018.1.6f1
+
 [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) - this library is required but is not available in this repo because it is a paid package. You'll need to import this package from the asset store.
 
 [RSG.Promise](https://www.nuget.org/packages/RSG.Promise/) - this NuGet package can be installed via [NuGet for Unity](https://assetstore.unity.com/packages/tools/utilities/nuget-for-unity-104640)
